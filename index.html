@@ -1,0 +1,909 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Nuestro primer mes ❤️
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     PORTADA
+===================================================== -->
+
+<section
+    id="cover"
+    class="screen active"
+>
+
+    <div class="hearts-container">
+
+        <div class="heart" style="left: 10%; animation-duration: 8s;">
+            ❤️
+        </div>
+
+        <div class="heart" style="left: 25%; animation-duration: 11s;">
+            💕
+        </div>
+
+        <div class="heart" style="left: 40%; animation-duration: 9s;">
+            ❤️
+        </div>
+
+        <div class="heart" style="left: 60%; animation-duration: 12s;">
+            💕
+        </div>
+
+        <div class="heart" style="left: 75%; animation-duration: 10s;">
+            ❤️
+        </div>
+
+        <div class="heart" style="left: 90%; animation-duration: 13s;">
+            💕
+        </div>
+
+    </div>
+
+
+    <div class="cover-content">
+
+        <div class="small-text">
+            Para vos, Mayra
+        </div>
+
+
+        <h1>
+            Nuestro primer mes
+        </h1>
+
+
+        <p>
+            Una pequeña aventura
+            hecha especialmente para vos.
+        </p>
+
+
+        <p class="subtitle">
+            Hay algo que preparé para vos...
+        </p>
+
+
+        <button id="startButton">
+            Comenzar nuestra historia ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ROMPECABEZAS
+===================================================== -->
+
+<section
+    id="puzzleScreen"
+    class="screen"
+>
+
+    <div class="puzzle-content">
+
+
+        <div class="puzzle-header">
+
+            <span class="eyebrow">
+                PRIMERA PARTE
+            </span>
+
+
+            <h2>
+                Antes de continuar...
+            </h2>
+
+
+            <p>
+                Hay algo que tenés que descubrir.
+                Armá el rompecabezas para descubrir
+                qué preparé para vos.
+            </p>
+
+
+            <p class="puzzle-instruction">
+                Elegí una pieza y después elegí
+                el lugar donde creés que corresponde.
+            </p>
+
+        </div>
+
+
+
+        <div class="puzzle-progress">
+
+            Piezas colocadas:
+            <span id="progress">0</span>
+            / 16
+
+        </div>
+
+
+
+        <div class="puzzle-wrapper">
+
+            <div
+                id="puzzleBoard"
+                class="puzzle-board"
+            >
+
+            </div>
+
+        </div>
+
+
+
+        <div class="pieces-container">
+
+            <div
+                id="piecesPool"
+                class="pieces-pool"
+            >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PUZZLE COMPLETADO
+        ================================================= -->
+
+        <div
+            id="puzzleComplete"
+            class="puzzle-complete"
+        >
+
+            <div class="success-message">
+
+                <div class="complete-icon">
+                    💕
+                </div>
+
+
+                <h2>
+                    Lo lograste
+                </h2>
+
+
+                <p>
+                    Ahora hay algo más que quiero
+                    mostrarte...
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SOBRE
+            ================================================= -->
+
+            <div class="envelope-container">
+
+                <div
+                    id="envelope"
+                    class="envelope"
+                >
+
+                    <div class="envelope-back">
+                    </div>
+
+
+                    <div class="letter-paper">
+                        ❤️
+                    </div>
+
+
+                    <div class="envelope-flap">
+                    </div>
+
+
+                    <div class="envelope-front">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 MENSAJE DEL SOBRE
+            ================================================= -->
+
+            <div
+                id="envelopeMessage"
+                class="envelope-message"
+            >
+
+                <p>
+                    Hay una última cosa
+                    que quiero compartir con vos.
+                </p>
+
+
+                <button
+                    id="openLetterButton"
+                >
+                    Leer mi carta ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CARTA
+===================================================== -->
+
+<section
+    id="letterScreen"
+>
+
+
+    <div class="letter-page">
+
+
+        <div class="letter-decoration">
+            ❤️
+        </div>
+
+
+
+        <header class="letter-header">
+
+            <span class="letter-eyebrow">
+                PARA EL AMOR DE MI VIDA
+            </span>
+
+
+            <h1>
+                Nuestro primer mes
+            </h1>
+
+
+            <div class="letter-line">
+                ✦ ✦ ✦
+            </div>
+
+        </header>
+
+
+
+        <div class="letter-content">
+
+
+            <p class="letter-greeting">
+                HOLAAAAAAAA MI AMORRRRRR!!!!
+            </p>
+
+
+
+            <p>
+
+                Feliz primer mes de novios, quería hacerte
+                este detalle y este regalo porque más allá
+                de cumplir nuestro primer mes juntos,
+                es el primero de nuestra vida juntos y es
+                algo hermoso, porque vos ya sabes que
+                siempre tuve ganas de conocerte, de ser
+                alguien cercano tuyo y miranos ahora,
+                cumpliendo nuestro primer mes de novios,
+                como pasó todo tan rápido, a veces siento
+                que esto es irreal de lo perfecto y hermoso
+                que es porque sos una novia perfecta amor,
+                sos la mejor compañera que podría tener
+                y eso no lo cambia nada ni nadie.
+
+            </p>
+
+
+
+            <p>
+
+                Te amo Mayra, y desde que llegaste a mi vida
+                la cambiaste por completo, me diste propósitos
+                nuevos por los cuales pelear y esforzarme aun
+                más de lo que venía haciendo, y como te dije
+                desde el momento uno, yo desde que estoy en
+                tu vida decidí ser tu compañero para todo lo
+                que necesites, porque fuiste mi amiga, la chica
+                que me gustó y que me sigue gustando y ahora
+                sos mi pareja, mi novia, mi esposa, mi compañera,
+                sos mi todo Mayra y no pienso perderte por nada
+                del mundo amor, porque sé que amo con intensidad
+                y ambos sabemos que un pequeño gran mundo
+                nos enseñó a amar de distintas maneras...
+
+            </p>
+
+
+
+            <!-- =================================================
+                 MARVEL
+            ================================================= -->
+
+            <section class="marvel-section">
+
+
+                <div class="marvel-intro">
+
+                    <span>
+                        PEQUEÑOS PEDACITOS DE NUESTRA HISTORIA
+                    </span>
+
+
+                    <h2>
+                        Ellos me enseñaron algo sobre el amor
+                    </h2>
+
+
+                    <p>
+
+                        Hay personajes que, de alguna manera,
+                        nos enseñaron distintas formas de amar.
+                        Y cada uno de ellos me hizo pensar
+                        un poquito más en vos.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- IRON MAN -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/iron-man.png"
+                            alt="Iron Man pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            IRON MAN
+                        </span>
+
+
+                        <p>
+                            Uno me enseñó a amarte 3 millones.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- DEADPOOL -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/deadpool.png"
+                            alt="Deadpool pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            DEADPOOL
+                        </span>
+
+
+                        <p>
+                            Otro me enseñó que tus locuras
+                            van con mis locuras.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- LOKI -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/loki.png"
+                            alt="Loki pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            LOKI
+                        </span>
+
+
+                        <p>
+                            Otro me reforzó aún más que
+                            solo quiero que estés bien y ya.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SPIDER-MAN -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/spiderman.png"
+                            alt="Spider-Man pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            SPIDER-MAN
+                        </span>
+
+
+                        <p>
+                            Uno me hizo entender que cuando
+                            encontrás al amor, tú eres mi camino
+                            y siempre vas a ser mi camino.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SCARLET WITCH -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/scarlet-witch.png"
+                            alt="Scarlet Witch pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            SCARLET WITCH
+                        </span>
+
+
+                        <p>
+                            El personaje que amás me hizo entender
+                            que sos mi tristeza y mi esperanza,
+                            pero sobre todo eres mi amor.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- DOCTOR STRANGE -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/doctor-strange.png"
+                            alt="Doctor Strange pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            DOCTOR STRANGE
+                        </span>
+
+
+                        <p>
+                            Inclusive uno me hizo entender que
+                            no importa en dónde esté, que yo te amo
+                            y te voy a amar en todos los universos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CAPITÁN AMÉRICA -->
+
+                <div class="marvel-card">
+
+                    <div class="marvel-image">
+
+                        <img
+                            src="assets/images/marvel/captain-america.png"
+                            alt="Captain America pixel art"
+                        >
+
+                    </div>
+
+
+                    <div class="marvel-text">
+
+                        <span class="character-name">
+                            CAPITÁN AMÉRICA
+                        </span>
+
+
+                        <p>
+                            Otro me enseñó a viajar en el tiempo
+                            para poder volver a pasar la vida juntos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TRANSICIÓN -->
+
+                <div class="marvel-transition">
+
+                    <p>
+                        Y después de todo lo que me enseñaron ellos...
+                    </p>
+
+
+                    <div class="transition-heart">
+                        ❤️
+                    </div>
+
+
+                    <h3>
+                        Me di cuenta de que no necesito viajar
+                        en el tiempo, cruzar universos
+                        ni salvar el mundo...
+                    </h3>
+
+
+                    <p class="final-love-line">
+                        Porque mi lugar siempre va a estar a tu lado.
+                    </p>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- =================================================
+                 RESTO DE LA CARTA
+            ================================================= -->
+
+            <p>
+
+                Y aun así nosotros estando a 2.120 km de distancia,
+                eso no va a ser nuestro impedimento para vernos,
+                para tenernos cara a cara, porque si uno viajó
+                en el tiempo, otro viajó entre mundos, otro viajó
+                entre universos y uno decidió borrarse a sí mismo
+                para salvar al amor de su vida, si ellos hicieron
+                eso que son modelos y maneras que admiro de amar,
+                yo estoy dispuesto a todo por ti mi amor, porque
+                sos el amor de mi vida y la persona con la que
+                quiero pasar el resto de mi vida, sea donde sea
+                y cuando sea, pero siempre contigo mi vida,
+                porque vos Mayra Gomez, sos la mejor decisión
+                que pude haber tomado en mi vida y sos la mejor
+                persona que me podría haber cruzado entre tantos
+                mundos, líneas temporales, entre tantos universos,
+                vos Mayra Gomez, sos la mujer que amo y que voy
+                a amar por el resto de mi vida...
+
+            </p>
+
+
+
+            <p>
+
+                Quiero amarte por el resto de mi vida amor,
+                quiero ser tu pilar, tu hombro, tu lugar seguro,
+                sé que no siempre es fácil pero para eso estoy
+                con vos, para ayudarte a afrontar todo porque
+                ya no estás sola mi amor, ahora tenés a una
+                persona que realmente va a dejarlo todo por ti,
+                y que está dispuesto a todo, porque vas a ver
+                que no son solo palabras vacías, sino que todo
+                te lo voy a demostrar y todo lo voy a hacer
+                para vos mi amor, voy a luchar para que todos
+                los meses vos te sientas cada vez más segura,
+                más tranquila y en simultáneo voy a estar
+                esforzándome para que podamos romper con la
+                distancia entre nosotros lo antes posible,
+                porque quiero que un futuro vos y yo estemos
+                comprando cosas y decorando nuestro hogar...
+
+            </p>
+
+
+
+            <div class="letter-ending">
+
+
+                <p>
+
+                    Eternamente agradecido con vos mi amor,
+                    me cambiaste la vida de una manera
+                    que no te das idea.
+
+                </p>
+
+
+                <div class="final-message">
+
+                    <p>
+                        Feliz primer mes amor.
+                    </p>
+
+
+                    <h2>
+                        Primero de nuestra vida juntos.
+                    </h2>
+
+
+                    <span>
+                        Te amo 3 Millones, Mayra ❤️
+                    </span>
+
+                </div>
+
+
+                <div class="letter-bottom">
+                    ✦ ❤️ ✦
+                </div>
+<!-- =====================================================
+     CUPÓN DE REGALO
+===================================================== -->
+
+<section class="minecraft-gift">
+
+    <div class="gift-intro">
+
+        <span class="gift-eyebrow">
+            Y TODAVÍA HAY UNA ÚLTIMA SORPRESA...
+        </span>
+
+        <h2>
+            Preparé algo más para vos 🎁
+        </h2>
+
+        <p>
+            Porque quería regalarte un pequeño pedacito
+            de mi mundo para que podamos compartir
+            muchos mundos juntos.
+        </p>
+
+    </div>
+
+
+    <div class="minecraft-coupon">
+
+        <div class="coupon-pixel-corner top-left"></div>
+        <div class="coupon-pixel-corner top-right"></div>
+        <div class="coupon-pixel-corner bottom-left"></div>
+        <div class="coupon-pixel-corner bottom-right"></div>
+
+
+        <div class="coupon-icon">
+            🎮
+        </div>
+
+
+        <span class="coupon-label">
+            CUPÓN ESPECIAL
+        </span>
+
+
+        <h3>
+            VÁLIDO POR
+        </h3>
+
+
+        <h2>
+            MINECRAFT JAVA EDITION
+        </h2>
+
+
+        <div class="coupon-divider">
+            ◆ ◆ ◆
+        </div>
+
+
+        <p class="coupon-message">
+
+            Porque quiero que tengamos
+            muchos mundos para explorar juntos.
+
+        </p>
+
+
+        <div class="coupon-info">
+
+            <div>
+                <span>
+                    DESTINATARIA
+                </span>
+
+                <strong>
+                    MAYRA ❤️
+                </strong>
+            </div>
+
+
+            <div>
+                <span>
+                    MOTIVO
+                </span>
+
+                <strong>
+                    TE AMO 3 MILLONES
+                </strong>
+            </div>
+
+        </div>
+
+
+        <button
+            id="claimGiftButton"
+            class="claim-gift-button"
+        >
+
+            🎁 Reclamar mi regalo
+
+        </button>
+
+
+        <div
+            id="giftRevealed"
+            class="gift-revealed"
+        >
+
+            <div class="gift-revealed-icon">
+                💚
+            </div>
+
+
+            <h3>
+                ¡CUPÓN APROBADO!
+            </h3>
+
+
+            <p>
+                Tu regalo te está esperando...
+            </p>
+
+
+            <span>
+                El código de activación
+                te lo voy a entregar personalmente ❤️
+            </span>
+
+        </div>
+
+
+        <div class="coupon-footer">
+
+            ★ UN REGALO PARA COMPARTIR JUNTOS ★
+
+        </div>
+
+    </div>
+
+
+    <div class="gift-final-message">
+
+        <p>
+            Y ahora sí...
+        </p>
+
+        <h3>
+            ¿Listos para crear nuestro propio mundo? ❤️
+        </h3>
+
+    </div>
+
+</section>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+```
+
